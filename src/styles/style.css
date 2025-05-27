@@ -1,0 +1,71 @@
+* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+img {
+    border-radius: 20px;
+    width: 500px;
+    margin: 10px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.02);
+}
+
+/* Untuk gambar makanan */
+.menu-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Untuk nama dan harga */
+.item-body {
+  flex-grow: 1;
+}
+
+.item-body h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.item-body p {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Untuk tombol delete */
+.button-delete {
+  background-color: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-delete:hover {
+  background-color: #d9363e;
+}
