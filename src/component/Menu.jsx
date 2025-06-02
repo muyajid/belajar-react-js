@@ -27,7 +27,7 @@ export class Menu extends React.Component {
           id: +new Date(),
           name,
           price,
-          image: imageUrl // harus pakai 'image' karena di MenuItem juga pakai image
+          image: imageUrl
         }
       ]
     }));
